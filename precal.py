@@ -2,7 +2,7 @@ import numpy as np
 '''
 This function is used to calculate the distance between two faces in MACER2D
 '''
-def r_a(x_min,x_max,x_rate,N):
+def r_face(x_min,x_max,x_rate,N):
     N1 = N+1
     d_r = np.zeros(N) 
     r_a = np.zeros(N1)
@@ -13,7 +13,7 @@ def r_a(x_min,x_max,x_rate,N):
         
     return r_a 
 
-def thata_a(theta_min, theta_max,N):
+def thata_face(theta_min, theta_max,N):
     N1 = N+1
     th_a = np.zeros(N1)
     th_a[0] = theta_min
