@@ -1,4 +1,5 @@
 k_b = 1.38e-16         #erg K^-1
+k_b_kev = 0.8625e-7         #keV K^-1
 mp = 1.66e-24 #g
 gamma=5/3
 mui=0.64 #1 solar
